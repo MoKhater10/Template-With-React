@@ -8,9 +8,9 @@ import Index from './Components/Index';
 class App extends Component {
   render(){
     return (
-      <hashRouter basename='/'>
+      <hashRouter basename=''>
         <Navbar />
-        <Route exact path="/" component={Index}/>
+        <Route exact path="" component={Index}/>
         <Route path="/contact" component={Contact}/>
       </hashRouter>
   );
